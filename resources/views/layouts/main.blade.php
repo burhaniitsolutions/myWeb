@@ -17,22 +17,22 @@
     <link rel="canonical" href="http://www.abdulquadir.in" />
     <link rel='shortlink' href='http://www.abdulquadir.in' />
     <!-- Favicons -->
-    <link rel="shortcut icon" href="" type="image/x-icon"/>
-    <link rel="shortcut icon" href="" type="image/vnd.microsoft.icon"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="" />
-    <link rel="apple-touch-icon" sizes="76x76" href="" />
-    <link rel="apple-touch-icon" sizes="120x120" href="" />
-    <link rel="apple-touch-icon" sizes="152x152" href="" />
-    <link rel="apple-touch-icon" sizes="180x180" href="" />
+    <link rel="shortcut icon" href="{{asset('img/ico/ab_logo_48.ico')}}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{{asset('img/ico/ab_logo_48.ico')}}" type="image/vnd.microsoft.icon"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="{{asset('img/ico/ab_logo_48.ico')}}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{asset('img/ico/ab_logo_64.ico')}}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{asset('img/ico/ab_logo_128.ico')}}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{asset('img/ico/ab_logo_192.ico')}}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('img/ico/ab_logo_256.ico')}}" />
     <!-- stylesheet -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <!-- Title -->
     <title>Abdul Quadir </title>
   </head>
   <body>
     @yield('mainbody')
-    <script src="<?php// echo base_url('assets/js/jquery.js');?>"></script>
-    <script src="<?php// echo base_url('assets/js/materialize.min.js');?>"></script>
-    <script src="<?php// echo base_url('assets/js/master.js');?>"></script>
+    <script src="{{asset('js/jquery.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/main.js')}}"></script>
   </body>
 </html>
